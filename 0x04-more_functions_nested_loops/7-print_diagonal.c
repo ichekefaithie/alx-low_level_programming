@@ -7,23 +7,17 @@ include "main.h"
 
 void print_diagonal(int n)
 {
-	int i = 0;
-	int j;
+	int x, y;
 
-	if (n > 0)
+	if (n <= 0 )
+		_putchar('\n');
+
+	for (x = 0; x < n; x++)
 	{
-		for (; i < n; i++)
-		{
-			for (j = 0; j < i; j++)
-			{
-				_putchar(' ');
-			}
-			_putchar(92);
-			_putchar('\n');
-		}
-	}
-	else
-	{
+		for (y = 0; y < x; y++)
+			_putchar(' ');
+
+		_putchar('\\');
 		_putchar('\n');
 	}
 }
