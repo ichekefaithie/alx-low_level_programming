@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- *  * puts2 - function thats prints every character of a string
- *   * @str: pointer parameter
- *    * Author: Sammykingx
- *     */
+ * puts2 - function thats prints every character of a string
+ * @str: pointer parameter
+*/
 
 void puts2(char *str)
 {
